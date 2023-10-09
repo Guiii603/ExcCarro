@@ -32,10 +32,12 @@ public class Main {
 
     gol.liga();
     gol.acelerar(170);
-    gol.acelerar(11); // Erro na confirmaçao da velocidade maxima
+    gol.acelerar(11);
     gol.acelerar(1);
     gol.acelerar(-10);
-
+    gol.desacelera(11);
+    gol.desacelera(170); // erro
+    gol.desacelera(1);
     }
 
 }
