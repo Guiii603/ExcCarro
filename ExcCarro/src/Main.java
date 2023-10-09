@@ -34,6 +34,7 @@ public class Main {
     gol.acelerar(170);
     gol.acelerar(11); // Erro na confirmaçao da velocidade maxima
     gol.acelerar(1);
+    gol.acelerar(-10);
 
     }
 
